@@ -57,6 +57,9 @@ int closedir(DIR *dirp);
 #endif // MINIRENT_H_
 
 #ifdef MINIRENT_IMPLEMENTATION
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 struct DIR
 {
