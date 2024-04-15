@@ -1,11 +1,11 @@
+#define MINIRENT_IMPLEMENTATION
+#include <minirent.h>
+
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
-
-#define MINIRENT_IMPLEMENTATION
-#include <minirent.h>
 
 int main(int argc, char *argv[])
 {
